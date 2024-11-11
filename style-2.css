@@ -1,0 +1,96 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+
+    background-image: url('https://i.pinimg.com/564x/ca/e8/21/cae821fa6210b917191d7cf7eaa269fa.jpg');
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+     background-repeat: no-repeat; /* Prevents repeating the image */
+    font-family: Playfair Display;
+}
+
+/* Container style */
+.container {
+    opacity: 0.8;
+    background-color: #85baff; /* Jordy Blue */
+    color: #ebf5ff; /* Alice Blue */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: royalblue;
+    color: whitesmoke; /* Alice Blue */
+    padding: 20px;
+    text-align: center;
+    font-size: 36px; /* Larger size for title heading */
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Table style */
+.table {
+    background-color:white;
+    color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header */
+.table thead th {
+    background-color: white;
+    color: #333;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif; /* Applied Playfair Display font */
+}
+
+/* Table rows */
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* Row hover effect */
+.table-hover tbody tr:hover {
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Image styling */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer styling */
+footer {
+    background-color: royalblue;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Row font styling */
+tr {
+    font-size: 18px;
+    color: #333;
+}
